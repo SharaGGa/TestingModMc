@@ -29,7 +29,7 @@ apply plugin: 'org.spongepowered.mixin'
 
 
 
-version = 'v0.0.1a_01-1.18.2'
+version = 'v0.0.1b_01-1.18.2'
 group = 'org.nero.justtest' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'justtest'
 

@@ -1,11 +1,4 @@
 {
-  "poof": {
-    "sounds": [
-      "justtest:poof1",
-      "justtest:poof2",
-      "justtest:poof3"
-    ]
-  },
   "recipe_notify" : {
     "sounds": [
       "justtest:notifies/recipe_notify"
