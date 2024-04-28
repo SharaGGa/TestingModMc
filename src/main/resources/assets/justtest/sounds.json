@@ -1,0 +1,24 @@
+{
+  "poof": {
+    "sounds": [
+      "justtest:poof1",
+      "justtest:poof2",
+      "justtest:poof3"
+    ]
+  },
+  "recipe_notify" : {
+    "sounds": [
+      "justtest:notifies/recipe_notify"
+    ]
+  },
+  "goal_notify": {
+    "sounds": [
+      "justtest:notifies/goal_notify"
+    ]
+  },
+  "adv_notify": {
+    "sounds": [
+      "justtest:notifies/adv_notify"
+    ]
+  }
+}
