@@ -23,27 +23,27 @@ public class TestModMc
 
 
 
-    private final Set<Entity> deadEntities = new HashSet<>();
-    @SubscribeEvent
-    public void livingDeath(LivingDeathEvent event) {
-        if (deadEntities.add(event.getEntityLiving())) {
-            // Получение координат моба
-            double x = event.getEntityLiving().getX();
-            double y = event.getEntityLiving().getY();
-            double z = event.getEntityLiving().getZ();
-            Level world = event.getEntityLiving().level;
-
-            Timer timer = new Timer();
-            timer.schedule(new TimerTask() {
-                @Override
-                public void run() {
-                    world.playSound(null, x, y, z, Sound.POOF.get(), SoundSource.HOSTILE, 1.0f, 1.0f);
-                }
-            }, 1000);
-        }
-
-    }
-
+//    private final Set<Entity> deadEntities = new HashSet<>();
+//    @SubscribeEvent
+//    public void livingDeath(LivingDeathEvent event) {
+//        if (deadEntities.add(event.getEntityLiving())) {
+//            // Получение координат моба
+//            double x = event.getEntityLiving().getX();
+//            double y = event.getEntityLiving().getY();
+//            double z = event.getEntityLiving().getZ();
+//            Level world = event.getEntityLiving().level;
+//
+//            Timer timer = new Timer();
+//            timer.schedule(new TimerTask() {
+//                @Override
+//                public void run() {
+//                    world.playSound(null, x, y, z, Sound.POOF.get(), SoundSource.HOSTILE, 1.0f, 1.0f);
+//                }
+//            }, 1000);
+//        }
+//
+//    }
+//
 
 
 
